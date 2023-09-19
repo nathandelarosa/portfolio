@@ -12,11 +12,29 @@ h1, h2 {
     color: white;
 }
 
+h1 {
+    font-size: 4vb;
+}
+
+h2 {
+    font-size: 2.5vb;
+}
+
 .content {
     background-color: rgb(169, 169, 169, 0.4);
     width: 92%;
     height: 90%;
     border-radius: 35px;
+}
+
+nav {
+    background-color: black;
+    border-radius: 75px;
+    text-wrap: nowrap;
+    width:fit-content;
+    text-align: center;
+    position: relative;
+    padding-right: 15%;
 }
 
 .flex-container-head {
@@ -34,4 +52,26 @@ h1, h2 {
 
 li {
     display: inline-block;
+}
+
+ul {
+    text-align: center;
+    margin-left: -1%;
+}
+
+.description {
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 90%;
+    height: 75%;
+    left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2vb;
+    border-radius: 35px;
+    position:relative;
+}
+
+@media (max-width: 900px) {
+    .description {
+        height: 70%;
+    }
 }
